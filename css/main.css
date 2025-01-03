@@ -137,10 +137,20 @@ button.btn.btn-theme-color:hover{
 
 .app-img {
   padding: 20px;
-  max-width: 90%;
+  max-width: 100%;
   height: auto;
   display: block;
   margin: 0 auto;
+}
+
+.app-header {
+  padding: 20px;
+  font-size: 40px;
+  font-weight: bolder;
+  line-height: auto;
+  margin: 0px 0px;
+  padding-top: 50px;
+  color: #3f3f3f;
 }
 
 .app-desc {
@@ -149,7 +159,6 @@ button.btn.btn-theme-color:hover{
   font-weight: normal;
   line-height: auto;
   margin: 0px 0px;
-  padding-top: 50px;
   color: #777;
 }
 
