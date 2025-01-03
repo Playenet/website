@@ -105,7 +105,8 @@ button.btn.btn-theme-color:hover{
 
 .about {
     background: #ffffff;
-    padding: 100px;
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
 
 .about-intro p {
@@ -132,7 +133,8 @@ button.btn.btn-theme-color:hover{
 
 .projects {
   background-color: rgb(241, 241, 241);
-  padding: 80px;
+  padding-top: 80px;
+  padding-bottom: 80px;
 }
 
 .app-img {
