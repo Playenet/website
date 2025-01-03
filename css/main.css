@@ -71,7 +71,7 @@ button.btn.btn-theme-color:hover{
     position: relative;
     width: 100%;
     background-image: url('../img/banner.jpg');
-    background-attachment: fixed;
+    background-attachment: scroll;
     filter: saturate(100%);
 }
 
