@@ -178,6 +178,13 @@ button.btn.btn-theme-color:hover{
 .footer {
     background-color: #F7F7F7;
 }
+.footer .terms {
+  padding: 20px;
+}
+.terms-txt {
+  color: #868686;
+  font-size: 20px;
+}
 .social-icons {
     padding: 50px;
 }
