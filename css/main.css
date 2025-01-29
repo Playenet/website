@@ -143,6 +143,7 @@ button.btn.btn-theme-color:hover{
   height: auto;
   display: block;
   margin: 0 auto;
+  filter: drop-shadow(0 0 1rem rgba(0, 0, 0, 0.5));
 }
 
 .app-header {
@@ -172,12 +173,78 @@ button.btn.btn-theme-color:hover{
 }
 
 /*=====================================================
+    FAQ
+======================================================*/
+
+.faq {
+  margin: 20px;
+  padding: 10px 0;
+}
+
+.faq-header {
+  color: #868686;
+  font-size: 25px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.card {
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.card-header {
+  background-color: #fff;
+  border-bottom: 1px solid #ddd;
+}
+
+.card-header .btn {
+  font-size: 15px;
+  font-weight: 600;
+  color: #333;
+  text-align: left;
+  width: 100%;
+  padding: 12px;
+  background: none;
+  border: none;
+  outline: none;
+}
+
+.card-header .btn:focus {
+  box-shadow: none;
+}
+
+.card-body {
+  padding: 20px;
+  background-color: #fff;
+  font-size: 16px;
+  color: #555;
+}
+
+.card-body p {
+  margin: 0;
+}
+
+/* Adjusting the button styles for active/inactive states */
+.card-header .btn.collapsed {
+  color: #666666;
+}
+
+.card-header .btn:not(.collapsed) {
+  color: #666666;
+}
+
+.card-header .btn:hover {
+  color: #666666;
+}
+
+/*=====================================================
     Contact
 ======================================================*/
 
 .contact {
-  margin-top: 20px;
-  margin-bottom: 40px;
+  margin: 20px;
   position: relative;
   text-align: center;
 }
