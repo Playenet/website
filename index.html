@@ -24,8 +24,6 @@
         <!-- Google Fonts -->
         <link href='https://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'>
 
-        <!-- fontawesome -->
-        <script src="https://kit.fontawesome.com/de7ca61db1.js" crossorigin="anonymous"></script>
 
         <!--
         CSS
@@ -175,7 +173,7 @@
                                 </div>
                                 <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#faqAccordion">
                                     <div class="card-body">
-                                        If you wish to request data deletion, please get in touch with us through the support button in the game settings page. We'll assist you with the process.
+                                        To request data deletion, follow the steps on our <a href="https://www.playenet.com/legal#delete-data">legal page</a>.
                                     </div>
                                 </div>
                             </div>
@@ -205,7 +203,7 @@
                                 </div>
                                 <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#faqAccordion">
                                     <div class="card-body">
-                                        Yes, our game is completely free to play! While there are optional in-app purchases available, you can enjoy the game without spending any money.
+                                        Yes, our game is free to download and play. It includes ads and optional in-app purchases, and you can enjoy the game without spending any money.
                                     </div>
                                 </div>
                             </div>
@@ -296,19 +294,8 @@
             <div class="container">
                 <div class="row">
                         <h2 class="contact-txt">Contact Us</h2>
-                    <div class="form-group">
-                    <form action="mail/gonder.php" method="POST">
-                    <div class="col-12">
-                        <div class="contact-form">
-                            <input class="form-control" type="text" name="isim" id="name" required="" maxlength="50" placeholder="Name">
-                            <input class="form-control" type="email" name="email" id="email" required="" maxlength="50" placeholder="Email">
-                            <textarea class="input-message" type="text" name="aciklama" id="message" cols="30" rows="4" required=""  maxlength="800" placeholder="Comment"></textarea>
-                            <button class="btn btn-theme-color center-block" id="register-btn" value="Register" type="submit">SEND</button>
-                        </div>
-                    </div>
-                </form>
+                    <p class="text-center"><a href="mailto:support@playenet.com">support@playenet.com</a></p>
                 </div>
-            </div>
             </div>
         </div>
         <!-- // contact -->
@@ -344,13 +331,6 @@
         <script src="js/bootstrap.min.js"></script>
         <script src="js/wow.min.js"></script>
         <script src="js/main.js"></script>
-
-        <script>
-            function recaptcha_callback() {
-                var registerBtn = document.querySelector('#register-btn');
-                registerBtn.removeAttribute('disabled');
-            }
-        </script>
 
     </body>
 </html>
